@@ -15,3 +15,26 @@ venv/
 
 # Data (optional, we'll adjust later)
 data/
+
+# ---- Jupyter / temp ----
+Untitled.ipynb
+Untitled*.ipynb
+.virtual_documents/
+
+# ---- Data (never commit) ----
+**/data_raw/
+**/data_processed/
+**/data_gold/
+
+# ---- Videos ----
+*.mp4
+*.mov
+*.avi
+
+# ---- Environment ----
+.env
+__pycache__/
+*.pyc
+
+# ---- OS ----
+.DS_Store
